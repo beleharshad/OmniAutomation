@@ -34,5 +34,7 @@ public class Demo {
 			driver.findElement(By.xpath("//*[@id='CV91_btnLogin']")).click();
 
 			Thread.sleep(3000);
+			
+			System.out.println("new changes");
 	}
 }
